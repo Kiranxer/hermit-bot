@@ -16,8 +16,8 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 
 module.exports = {
   VERSION: 'v4.4.4',
-  SESSION_ID: process.env.SESSION_ID || '',
-  MODE: (process.env.MODE || 'private').toLowerCase(),
+  SESSION_ID: process.env.SESSION_ID || 'HP_2024_OCT_6_QI6OSQ',
+  MODE: (process.env.MODE || 'public').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
   READ_MSG: toBool(process.env.READ_MSG),
@@ -31,7 +31,7 @@ module.exports = {
   ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
   BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/6oRG106.jpeg',
   AUDIO_DATA: process.env.AUDIO_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg',
-  STICKER_DATA: process.env.STICKER_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ',
+  STICKER_DATA: process.env.STICKER_DATA || 'ʜᴇʀᴍɪᴛ;Kiran-Xer',
   ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE, 'true'),
   SONG_THUMBNAIL: toBool(process.env.SONG_THUMBNAIL),
   WARN: process.env.WARN || '4',
@@ -64,6 +64,6 @@ module.exports = {
       }),
   RBG_API_KEY: process.env.REMOVE_BG_API_KEY || false,
   BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
-  SUDO: process.env.SUDO || '0,0',
+  SUDO: process.env.SUDO || '919539060020',
   DEBUG: DEBUG
 };
